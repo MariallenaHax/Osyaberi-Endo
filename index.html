@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>おしゃべり遠藤 for Javascript</title>
+  </head>
+  <body>
+    <link rel="shortcut icon" href="ICON/1.ico">
+    <link rel="apple-touch-icon" href="ICON/1.png">
+        <h1>おしゃべり遠藤</h1>
+        <button onclick="stop();play();" style="width:130px;height:130px;position: absolute;top: 91px;left: 8px">はい遠藤です</button>
+        <audio id="tts" preload="auto">
+            <source src= "music/1.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play1();" style="width:130px;height:130px;position: absolute;top: 91px;left: 143px">それ意味ないからw</button>
+          <audio id="tts1" preload="auto">
+            <source src= "music/2.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play2();" style="width:130px;height:130px;position: absolute;top: 91px;left: 279px">絶対に生きろ！</button>
+          <audio id="tts2" preload="auto">
+            <source src= "music/3.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play3();" style="width:130px;height:130px;position: absolute;top: 91px;left: 414px">いま俺おっさんに当たりそう</button>
+          <audio id="tts3" preload="auto">
+            <source src= "music/4.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play4();" style="width:130px;height:130px;position: absolute;top: 91px;left: 549px">ゴミっすね〜</button>
+          <audio id="tts4" preload="auto">
+            <source src= "music/5.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play5();" style="width:130px;height:130px;position: absolute;top: 91px;left: 685px">息してるかぁ〜</button>
+          <audio id="tts5" preload="auto">
+            <source src= "music/6.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play6();" style="width:130px;height:130px;position: absolute;top: 228px;left: 8px">おまえユーチューブやれよ</button>
+          <audio id="tts6" preload="auto">
+            <source src= "music/7.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play7();" style="width:130px;height:130px;position: absolute;top: 228px;left: 143px">無意味なことやってんな〜</button>
+          <audio id="tts7" preload="auto">
+            <source src= "music/8.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play8();" style="width:130px;height:130px;position: absolute;top: 228px;left: 279px">二流が黙れよ</button>
+          <audio id="tts8" preload="auto">
+            <source src= "music/9.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play9();" style="width:130px;height:130px;position: absolute;top: 228px;left: 414px">おい詐欺師、土下座しろよ</button>
+          <audio id="tts9" preload="auto">
+            <source src= "music/10.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play10();" style="width:130px;height:130px;position: absolute;top: 228px;left: 549px">さぁゲームの始まりですよ</button>
+          <audio id="tts10" preload="auto">
+            <source src= "music/11.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play11();" style="width:130px;height:130px;position: absolute;top: 228px;left: 685px">ディクソウソウ</button>
+          <audio id="tts11" preload="auto">
+            <source src= "music/12.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play12();" style="width:130px;height:130px;position: absolute;top: 365px;left: 8px">おいしぃ</button>
+          <audio id="tts12" preload="auto">
+            <source src= "music/13.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play13();" style="width:130px;height:130px;position: absolute;top: 365px;left: 143px">ざけんなよ！</button>
+          <audio id="tts13" preload="auto">
+            <source src= "music/14.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <button onclick="stop();play14();" style="width:130px;height:130px;position: absolute;top: 365px;left: 279px">振り向いた未来</button>
+          <audio id="tts14" preload="auto">
+            <source src= "music/15.wav">
+            <p>あなたのブラウザでは使用できません！</p>
+        </audio>
+            <button onclick="stop();play15();" style="width:130px;height:130px;position: absolute;top: 365px;left: 414px">やっぱおにぎりにはお茶が合いますね〜</button>
+            <audio id="tts15" preload="auto">
+              <source src= "music/16.wav">     
+              <p>あなたのブラウザでは使用できません！</p>
+            </audio>
+              <button onclick="stop();play16();" style="width:130px;height:130px;position: absolute;top: 365px;left: 549px">何でかっていうと〜</button>
+              <audio id="tts16" preload="auto">
+                <source src= "music/17.wav">     
+                <p>あなたのブラウザでは使用できません！</p>
+            </audio>
+                <button onclick="stop();play17();" style="width:130px;height:130px;position: absolute;top: 365px;left: 685px">って思いましたね〜</button>
+                <audio id="tts17" preload="auto">
+                  <source src= "music/18.wav">     
+                  <p>あなたのブラウザでは使用できません！</p>
+          </audio>
+          <div class="tagtag">
+            <a href="https://www.youtube.com/channel/UCVNLjcSY-pgDP49nec3fV3g" style="position: absolute;top: 500px;left: 480px"><b>By GT Museum</b></a>
+            </div>
+            <div class="tagtag1">
+                <a href="https://github.com/MariallenaHax" style="position: absolute;top: 500px;left: 620px">Ported by MariallenaHax<a>
+                </div>
+            <script language="javascript" type="text/javascript">
+                            var music = new Audio;
+                            function stop(){
+                                document.getElementById("tts").pause();
+                                document.getElementById("tts1").pause();
+                                document.getElementById("tts2").pause();
+                                document.getElementById("tts3").pause();
+                                document.getElementById("tts4").pause();
+                                document.getElementById("tts5").pause();
+                                document.getElementById("tts6").pause();
+                                document.getElementById("tts7").pause();
+                                document.getElementById("tts8").pause();
+                                document.getElementById("tts9").pause();
+                                document.getElementById("tts10").pause();
+                                document.getElementById("tts11").pause();
+                                document.getElementById("tts12").pause();
+                                document.getElementById("tts13").pause();
+                                document.getElementById("tts14").pause();
+                                document.getElementById("tts15").pause();
+                                document.getElementById("tts16").pause();
+                                document.getElementById("tts17").pause();
+                            }
+                function play(){　//「はい遠藤です」を再生するfunction
+                document.getElementById("tts").load();
+                document.getElementById("tts").play();
+            }
+                function play1(){ //「それ、意味ないから」を再生するfunction
+                document.getElementById("tts1").load();
+                document.getElementById("tts1").play();
+            
+            }
+                function play2(){ //「絶対に生きろ！」を再生するfunction
+                document.getElementById("tts2").load();
+                document.getElementById("tts2").play();
+            
+            }
+                function play3(){ //「今俺おっさんに当たりそう」を再生するfunction
+                document.getElementById("tts3").load();
+                document.getElementById("tts3").play();
+            
+            }
+                function play4(){ //「ごみっすね」を再生するfunction
+                document.getElementById("tts4").load();
+                document.getElementById("tts4").play();
+            
+            }
+                function play5(){ //「息してるかぁ〜？」を再生するfunction
+                document.getElementById("tts5").load();
+                document.getElementById("tts5").play();
+            
+            }
+                function play6(){ //「お前ユーチューブやれよ？」を再生するfunction
+                document.getElementById("tts6").load();
+                document.getElementById("tts6").play();
+            
+            }
+                function play7(){ //「無意味なことやってんな〜」を再生するfunction
+                document.getElementById("tts7").load();
+                document.getElementById("tts7").play();
+            
+            }
+                function play8(){ //「二流が黙れよ」を再生するfunction
+                document.getElementById("tts8").load();
+                document.getElementById("tts8").play();
+            
+            }
+                function play9(){ //「おい詐欺師、土下座しろよ」を再生するfunction
+                document.getElementById("tts9").load();
+                document.getElementById("tts9").play();
+            
+            }
+                function play10(){ //「さぁゲームの始まりですよ」を再生するfunction
+                document.getElementById("tts10").load();
+                document.getElementById("tts10").play();
+            
+            }
+                function play11(){ //「ディクソウソウ」を再生するfunction
+                document.getElementById("tts11").load();
+                document.getElementById("tts11").play();
+            
+            }
+                function play12(){ //「おいしぃ」を再生するfunction
+                document.getElementById("tts12").load();
+                document.getElementById("tts12").play();
+            
+            }
+            function play13(){ //「ざけんなよ！」を再生するfunction
+                document.getElementById("tts13").load();
+                document.getElementById("tts13").play();
+            
+            }
+            function play14(){ //「振り向いた未来」を再生するfunction
+                document.getElementById("tts14").load();
+                document.getElementById("tts14").play();
+            
+            }
+            function play15(){ //「やっぱおにぎりにはお茶が合いますね〜」を再生するfunction
+                document.getElementById("tts15").load();
+                document.getElementById("tts15").play();
+            
+            }
+            function play16(){ //「何でかっていうと〜」を再生するfunction
+                document.getElementById("tts16").load();
+                document.getElementById("tts16").play();
+            
+            }
+            function play17(){ //「って思いましたね〜」を再生するfunction
+                document.getElementById("tts17").load();
+                document.getElementById("tts17").play();
+            
+            }
+
+            </script>
+        </audio>
+  </body>
+</html>
